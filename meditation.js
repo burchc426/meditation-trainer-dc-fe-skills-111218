@@ -106,17 +106,18 @@ getMessage: function () {
     switch (this.count) {
         case 1:
             message = "Nice and easy, through the nose...";
-          
+            break;
         case 2:
             message = "Hold your breath for two seconds.";
-          
+            break;
         case 3:
             message = "Exhale through the mouth.";
-          
+            break;
         case 4:
             message = "And repeat!";
-            
-       
+            break;
+        default:
+            message = "Think of your mantra."
     }
     console.log("clickTracker happened.")
     return message;
