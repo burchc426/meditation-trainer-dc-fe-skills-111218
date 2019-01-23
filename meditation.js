@@ -99,7 +99,7 @@ let clickTracker = {
 count: 0,
 getMessage: function () {
   let message;
-  for (let i= 0)
+  for (let i= 0; i<5;)
    {
     switch (this.count) {
         case 1:
