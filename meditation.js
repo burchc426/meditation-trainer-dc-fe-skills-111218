@@ -98,7 +98,7 @@ document.addEventListener("DOMContentLoaded", function(e) {
 let clickTracker = {
 count: 0,
 getMessage: function () {
-  for (var message in count) {
+  for (var count in message) {
     switch (this.count) {
         case 1:
             message = "Nice and easy, through the nose...";
