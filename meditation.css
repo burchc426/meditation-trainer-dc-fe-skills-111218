@@ -1,0 +1,55 @@
+#app {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family:"Trebuchet MS";
+}
+
+h2 {
+  font-size: 16px;
+  text-align: center;
+}
+
+p, li {
+font-size: 12px;  
+}
+
+#main {
+  background-color:#373737;
+  width: 100%;
+  text-align: center;
+  color: #f5f5f5;
+  font-family:"Trebuchet MS";
+  font-size: 30px;
+}
+
+#breathLog {
+  width: 40%%;
+  margin: 2%;
+  justify-content: center;
+  background-color: #c7d8c6;
+} 
+
+#stats {
+  width: 40%;
+  margin: 2%;
+  justify-content: center;
+  background-color: #b6a19e;
+} 
+
+#button {
+  width: 40%;
+  margin: 2%;
+  justify-content: center;
+  background-color: #7a9d96;
+  font-family:"Trebuchet MS";
+  font-size: 20px;
+  font-weight:bolder;
+} 
+
+#instructions {
+  width: 40%;
+  margin: 2%;
+  justify-content: center;
+  background-color: #c7d8c6;
+}
