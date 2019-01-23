@@ -119,6 +119,7 @@ for (message in count) {
     console.log("clickTracker happened.")
     return message;
 }
+}
 };
 
     
