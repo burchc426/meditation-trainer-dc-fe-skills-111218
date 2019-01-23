@@ -118,6 +118,7 @@ getMessage: function () {
     }
     console.log("clickTracker happened.")
     return message;
+    continue;
 }
 };
 
