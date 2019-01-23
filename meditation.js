@@ -65,7 +65,6 @@ document.addEventListener("DOMContentLoaded", function(e) {
      count: 0,
      getBreathMessage: function() {
        let breathMessage;
-       for (let i= 0; i<5; i++) {
         switch (this.count) {
         case 1:
             breathMessage = "End Inhale";
@@ -83,7 +82,7 @@ document.addEventListener("DOMContentLoaded", function(e) {
      return breathMessage;
    }
    }
-  }
+  
    
   function buttonClick() {
   buttonTracker.count++;
@@ -101,8 +100,6 @@ let clickTracker = {
 count: 0,
 getMessage: function () {
   let message;
-  for (let i= 0; i<2; i++)
-   { console.log("loop is happening")
     switch (this.count) {
         case 1:
             message = "Nice and easy, through the nose...";
@@ -121,7 +118,6 @@ getMessage: function () {
     }
     console.log("clickTracker happened.")
     return message;
-}
 }
 };
 
