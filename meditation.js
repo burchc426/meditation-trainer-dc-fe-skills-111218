@@ -99,6 +99,7 @@ let clickTracker = {
 count: 0,
 getMessage: function () {
   for (var message in this.count) {
+    console.log ("for loop is working")
     switch (this.count) {
         case 1:
             message = "Nice and easy, through the nose...";
