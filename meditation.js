@@ -116,8 +116,7 @@ getMessage: function () {
         case 4:
             message = "And repeat!";
             
-        default:
-            message = "Think of your mantra."
+       
     }
     console.log("clickTracker happened.")
     return message;
